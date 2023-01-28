@@ -28,6 +28,7 @@ on:
       - https://rsshub.app/blogs/hedwig/lauren
       - https://hugo-stack-theme-mod-six.vercel.app/index.xml
       - https://heiheihei.ca/feed/
+      - https://wuyagege.substack.com/feed
 jobs:
   request:
     name: Make a HTTP Request
