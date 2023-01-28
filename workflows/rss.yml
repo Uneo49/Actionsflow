@@ -1,17 +1,49 @@
 on:
   rss:
-    url: https://hnrss.org/newest?points=300&count=3
+    url:
+      - https://sspai.com/feed
+      - https://www.visualcapitalist.com/feed/
+      - https://rsshub.app/zhubai/weichen
+      - https://blogatlarge.com/fudoyusei/?feed=rss2
+      - https://blog.douchi.space/?feed=rss2
+      - https://www.smalloranges.net/rss/
+      - https://www.digforfire.net/?feed=rss2
+      - https://feeds.feedburner.com/ruanyifeng
+      - https://neu-reality.com/feed/
+      - https://aaronnick.github.io/atom.xml
+      - http://ordinarymiracle.site/feed/
+      - https://www.anqi.rocks/atom.xml
+      - https://mantyke.icu/weekly/index.xml
+      - https://geekplux.com/feed.xml
+      - https://shiorireads.ca/feed/
+      - https://moontory.wordpress.com/feed/
+      - https://rsshub.app/telegram/channel/what_to_read_today
+      - https://rsshub.app/zhubai/dex
+      - http://discuss-cn.bestxtools.com/atom/t/weekly/discussions
+      - https://rizime.substack.com/feed
+      - https://pt.plus/rss/
+      - https://academiaaesthetics.com/feed/
+      - https://newsletter.replay.cafe/rss/
+      - https://rsshub.app/zhubai/housirui
+      - https://rsshub.app/zhubai/shyrz
+      - https://rsshub.app/blogs/hedwig/lauren
+      - https://hugo-stack-theme-mod-six.vercel.app/index.xml
+      - https://glennwoo.com/feed/
+      - https://heiheihei.ca/feed/
 jobs:
-  print:
-    name: Print
+  request:
+    name: Make a HTTP Request
     runs-on: ubuntu-latest
     steps:
-      - name: Print Outputs
-        env:
-          title: ${{on.rss.outputs.title}}
-          contentSnippet: ${{on.rss.outputs.contentSnippet}}
-          link: ${{on.rss.outputs.link}}
-        run: |
-          echo title: $title
-          echo contentSnippet: $contentSnippet
-          echo link: $link
+      - name: Make a HTTP Request
+        uses: actionsflow/axios@v1
+        with:
+          url: ${{ secrets.CUBOX }}
+          method: POST
+          body: |
+            {
+              "type":"url",
+              "content":"${{ on.rss.outputs.link }}", 
+              "title": "${{ on.rss.outputs.title }}",
+              "folder":"Inbox"
+            }
