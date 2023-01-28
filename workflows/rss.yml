@@ -28,7 +28,6 @@ on:
       - https://rsshub.app/zhubai/shyrz
       - https://rsshub.app/blogs/hedwig/lauren
       - https://hugo-stack-theme-mod-six.vercel.app/index.xml
-      - https://glennwoo.com/feed/
       - https://heiheihei.ca/feed/
 jobs:
   request:
