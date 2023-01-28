@@ -30,6 +30,7 @@ on:
       - https://heiheihei.ca/feed/
       - https://wuyagege.substack.com/feed
       - https://rsshub.app/zhubai/via
+      - https://rsshub.app/zhubai/landisland
 jobs:
   request:
     name: Make a HTTP Request
