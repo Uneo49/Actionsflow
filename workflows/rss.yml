@@ -29,6 +29,7 @@ on:
       - https://hugo-stack-theme-mod-six.vercel.app/index.xml
       - https://heiheihei.ca/feed/
       - https://wuyagege.substack.com/feed
+      - https://rsshub.app/zhubai/via
 jobs:
   request:
     name: Make a HTTP Request
