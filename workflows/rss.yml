@@ -8,6 +8,8 @@ on:
       - https://blog.douchi.space/?feed=rss2
       - https://www.smalloranges.net/rss/
       - https://www.digforfire.net/?feed=rss2
+        config:
+          limit: 5
       - https://feeds.feedburner.com/ruanyifeng
       - https://neu-reality.com/feed/
       - https://aaronnick.github.io/atom.xml
