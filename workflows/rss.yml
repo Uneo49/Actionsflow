@@ -32,6 +32,7 @@ on:
       - https://rsshub.app/zhubai/via
       - https://rsshub.app/zhubai/landisland
       - http://www.ideobook.com/feed/
+      - https://ephemeris.page/feed/
 jobs:
   request:
     name: Make a HTTP Request
