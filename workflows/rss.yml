@@ -34,6 +34,7 @@ on:
       - http://www.ideobook.com/feed/
       - https://ephemeris.page/feed/
       - https://avesliterature.substack.com/feed
+      - https://www.wainao.me/rss.xml
 jobs:
   request:
     name: Make a HTTP Request
