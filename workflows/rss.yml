@@ -3,37 +3,18 @@ on:
     url:
       - https://sspai.com/feed
       - https://www.visualcapitalist.com/feed/
-      - https://rsshub.app/zhubai/weichen
-      - https://blogatlarge.com/fudoyusei/?feed=rss2
-      - https://blog.douchi.space/?feed=rss2
-      - https://www.smalloranges.net/rss/
       - https://feeds.feedburner.com/ruanyifeng
-      - https://neu-reality.com/feed/
       - https://aaronnick.github.io/atom.xml
+      - https://blog.douchi.space/?feed=rss2
       - http://ordinarymiracle.site/feed/
       - https://www.anqi.rocks/atom.xml
       - https://mantyke.icu/weekly/index.xml
       - https://geekplux.com/feed.xml
-      - https://shiorireads.ca/feed/
-      - https://moontory.wordpress.com/feed/
       - https://rsshub.app/telegram/channel/what_to_read_today
-      - https://rsshub.app/zhubai/dex
-      - http://discuss-cn.bestxtools.com/atom/t/weekly/discussions
-      - https://rizime.substack.com/feed
-      - https://pt.plus/rss/
       - https://academiaaesthetics.com/feed/
-      - https://newsletter.replay.cafe/rss/
-      - https://rsshub.app/zhubai/housirui
-      - https://rsshub.app/zhubai/shyrz
-      - https://rsshub.app/blogs/hedwig/lauren
       - https://hugo-stack-theme-mod-six.vercel.app/index.xml
-      - https://heiheihei.ca/feed/
       - https://wuyagege.substack.com/feed
-      - https://rsshub.app/zhubai/via
-      - https://rsshub.app/zhubai/landisland
       - http://www.ideobook.com/feed/
-      - https://ephemeris.page/feed/
-      - https://avesliterature.substack.com/feed
       - https://www.wainao.me/rss.xml
 jobs:
   request:
