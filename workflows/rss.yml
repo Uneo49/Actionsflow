@@ -35,6 +35,7 @@ on:
       - https://ephemeris.page/feed/
       - https://avesliterature.substack.com/feed
       - https://www.wainao.me/rss.xml
+      - https://kill-the-newsletter.com/feeds/p639maqc0ay86ml7.xml
 jobs:
   request:
     name: Make a HTTP Request
