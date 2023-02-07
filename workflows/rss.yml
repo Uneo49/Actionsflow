@@ -18,6 +18,8 @@ on:
       - https://www.wainao.me/rss.xml
       - https://scottyeung.top/atom.xml
       - http://anotherdayu.com/?feed=rss
+      - https://apod.nasa.gov/apod.rss
+       https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss
 jobs:
   request:
     name: Make a HTTP Request
