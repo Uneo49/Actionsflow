@@ -16,6 +16,8 @@ on:
       - https://wuyagege.substack.com/feed
       - http://www.ideobook.com/feed/
       - https://www.wainao.me/rss.xml
+      - https://scottyeung.top/atom.xml
+      - http://anotherdayu.com/?feed=rss
 jobs:
   request:
     name: Make a HTTP Request
