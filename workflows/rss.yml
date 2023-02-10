@@ -19,6 +19,7 @@ on:
       - http://anotherdayu.com/?feed=rss
       - https://apod.nasa.gov/apod.rss
       - https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss
+      - https://weichen.blog/index.xml
 jobs:
   request:
     name: Make a HTTP Request
