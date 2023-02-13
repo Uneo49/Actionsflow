@@ -3,7 +3,6 @@ on:
     url:
       - https://sspai.com/feed
       - https://www.visualcapitalist.com/feed/
-      - https://feeds.feedburner.com/ruanyifeng
       - https://aaronnick.github.io/atom.xml
       - https://blog.douchi.space/?feed=rss2
       - http://ordinarymiracle.site/feed/
