@@ -6,7 +6,6 @@ on:
       - https://aaronnick.github.io/atom.xml
       - https://blog.douchi.space/?feed=rss2
       - http://ordinarymiracle.site/feed/
-      - https://www.anqi.rocks/atom.xml
       - https://mantyke.icu/weekly/index.xml
       - https://geekplux.com/feed.xml
       - https://academiaaesthetics.com/feed/
@@ -19,6 +18,7 @@ on:
       - https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss
       - https://weichen.blog/index.xml
       - https://www.owenyoung.com/atom.xml
+      - https://www.ruanyifeng.com/blog/atom.xml
 jobs:
   request:
     name: Make a HTTP Request
