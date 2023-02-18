@@ -18,6 +18,7 @@ on:
       - https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss
       - https://weichen.blog/index.xml
       - https://www.owenyoung.com/atom.xml
+      - https://1q43.blog/feed
 jobs:
   request:
     name: Make a HTTP Request
