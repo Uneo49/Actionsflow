@@ -20,6 +20,7 @@ on:
       - https://1q43.blog/feed
       - https://shiorireads.ca/feed/
       - http://www.ruanyifeng.com/blog/atom.xml
+      - https://avesliterature.substack.com/feed
 jobs:
   request:
     name: Make a HTTP Request
