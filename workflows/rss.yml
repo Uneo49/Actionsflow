@@ -19,6 +19,7 @@ on:
       - https://weichen.blog/index.xml
       - https://www.owenyoung.com/atom.xml
       - https://1q43.blog/feed
+      - https://shiorireads.ca/feed/
 jobs:
   request:
     name: Make a HTTP Request
