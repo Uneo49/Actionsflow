@@ -19,6 +19,7 @@ on:
       - https://www.owenyoung.com/atom.xml
       - https://1q43.blog/feed
       - https://shiorireads.ca/feed/
+      - http://www.ruanyifeng.com/blog/atom.xml
 jobs:
   request:
     name: Make a HTTP Request
