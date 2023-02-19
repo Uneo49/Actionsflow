@@ -22,6 +22,9 @@ on:
       - http://www.ruanyifeng.com/blog/atom.xml
       - https://avesliterature.substack.com/feed
       - https://rizime.substack.com/feed
+      - https://weekly.tw93.fun/rss.xml
+      - https://tyingknots.net/feed/
+      - https://wangyurui.com/feed.xml
 jobs:
   request:
     name: Make a HTTP Request
