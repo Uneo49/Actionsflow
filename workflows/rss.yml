@@ -21,6 +21,7 @@ on:
       - https://shiorireads.ca/feed/
       - http://www.ruanyifeng.com/blog/atom.xml
       - https://avesliterature.substack.com/feed
+      - https://rizime.substack.com/feed
 jobs:
   request:
     name: Make a HTTP Request
