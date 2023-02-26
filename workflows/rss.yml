@@ -25,6 +25,9 @@ on:
       - https://weekly.tw93.fun/rss.xml
       - https://tyingknots.net/feed/
       - https://wangyurui.com/feed.xml
+      - https://wuyouan.substack.com/feed
+      - https://skyue.substack.com/feed
+      - https://www.skyue.com/feed/
 jobs:
   request:
     name: Make a HTTP Request
