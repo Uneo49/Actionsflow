@@ -28,6 +28,7 @@ on:
       - https://wuyouan.substack.com/feed
       - https://skyue.substack.com/feed
       - https://www.skyue.com/feed/
+      - https://www.domon.cn/rss/
 jobs:
   request:
     name: Make a HTTP Request
