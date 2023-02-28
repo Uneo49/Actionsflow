@@ -16,6 +16,7 @@ on:
       - https://apod.nasa.gov/apod.rss
       - https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss
       - https://weichen.blog/index.xml
+      - https://rsshub.app/zhubai/weichen?limit=5
       - https://www.owenyoung.com/atom.xml
       - https://1q43.blog/feed
       - https://shiorireads.ca/feed/
@@ -29,6 +30,8 @@ on:
       - https://skyue.substack.com/feed
       - https://www.skyue.com/feed/
       - https://www.domon.cn/rss/
+      - https://pt.plus/rss/
+      - https://discuss-cn.bestxtools.com/atom
 jobs:
   request:
     name: Make a HTTP Request
