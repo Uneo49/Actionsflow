@@ -36,6 +36,7 @@ on:
       - https://www.skyue.com/feed/
       - https://www.domon.cn/rss/
       - https://newsletter.replay.cafe/rss/
+      - https://owlswims.com/feed/?limit=5
 jobs:
   request:
     name: Make a HTTP Request
