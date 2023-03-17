@@ -2,7 +2,6 @@ on:
   rss:
     url:
       - https://sspai.com/feed
-      - https://www.visualcapitalist.com/feed/
       - https://aaronnick.github.io/atom.xml
       - https://blog.douchi.space/?feed=rss2
       - http://ordinarymiracle.site/feed/
