@@ -38,6 +38,7 @@ on:
       - https://www.domon.cn/rss?limit=5
       - https://blog.ryouissei.com/feed
       - https://neu-reality.com/feed/?limit=5
+      - https://rss.utgd.net/feed?limit=15
 jobs:
   request:
     name: Make a HTTP Request
