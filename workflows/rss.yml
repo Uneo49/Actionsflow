@@ -6,7 +6,7 @@ on:
       - https://blog.douchi.space/?feed=rss2
       - http://ordinarymiracle.site/feed/
       - https://mantyke.icu/weekly/index.xml
-      - https://geekplux.com/feed.xml
+      - https://geekplux.com/newsletter-feed.xml?limit=5
       - https://academiaaesthetics.com/feed/
       - https://wuyagege.substack.com/feed
       - https://scottyeung.top/atom.xml
