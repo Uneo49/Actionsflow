@@ -3,7 +3,7 @@ on:
     url:
       - https://sspai.com/feed
       - https://aaronnick.github.io/atom.xml
-      - https://blog.douchi.space/?feed=rss2
+      - https://blog.douchi.space/index.xml
       - http://ordinarymiracle.site/feed/
       - https://mantyke.icu/weekly/index.xml
       - https://geekplux.com/newsletter-feed.xml?limit=5
