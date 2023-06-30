@@ -39,6 +39,7 @@ on:
       - https://rss.utgd.net/feed?limit=15
       - https://clearbox.substack.com/feed?limit=10
       - https://1link.fun/index.xml?limit=5
+      - https://nodebe4.github.io/opinion/feed.xml?limit=5
 jobs:
   request:
     name: Make a HTTP Request
