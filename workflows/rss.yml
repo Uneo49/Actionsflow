@@ -2,7 +2,6 @@ on:
   rss:
     url:
       - https://sspai.com/feed
-      - https://aaronnick.github.io/atom.xml
       - https://blog.douchi.space/index.xml?limit=5
       - http://ordinarymiracle.site/feed/
       - https://mantyke.icu/weekly/index.xml
