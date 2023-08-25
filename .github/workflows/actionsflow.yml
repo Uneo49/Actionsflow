@@ -37,3 +37,8 @@ jobs:
         uses: actionsflow/setup-act-for-actionsflow@v1
       - name: Run act
         run: act --workflows ./dist/workflows --secret-file ./dist/.secrets --eventpath ./dist/event.json --env-file ./dist/.env -P ubuntu-latest=actionsflow/act-environment:v1 -P ubuntu-18.04=actionsflow/act-environment:v1
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+           keep_minimum_runs: 20
+           token: ${{ secrets.GITHUB_TOKEN }}
