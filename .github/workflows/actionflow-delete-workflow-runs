@@ -1,7 +1,7 @@
 name: Delete old workflow runs
 on:
   schedule:
-    - cron: '45 14 8 8 3'
+     - cron: '0 0 1 * *'
 
 jobs:
   del_runs:
@@ -12,7 +12,7 @@ jobs:
       - name: Delete workflow runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
-          token: ${{ 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 }}
-          repository: ${{ Uneo49/Actionsflow }}
+          token: ${{ github.token }}
+          repository: ${{ Actionsflow }}
           retain_days: 30
           keep_minimum_runs: 10
