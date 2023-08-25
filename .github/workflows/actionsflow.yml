@@ -42,5 +42,5 @@ jobs:
         with:
            retain_days: 30  
            keep_minimum_runs: 20
-           token: ${{ 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 }}
+           token: ${{ github.token }}
            repository: ${{ github.repository }}
