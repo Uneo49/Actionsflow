@@ -27,12 +27,6 @@ jobs:
     concurrency: actionsflow
     steps:
       - uses: actions/checkout@v3
-      - name: Delete workflow runs
-        continue-on-error: true
-        uses: Mattraks/delete-workflow-runs@v2
-        with:
-           retain_days: 0
-           keep_minimum_runs: 5
       - name: Run Actionsflow
         uses: actionsflow/actionsflow-action@v1
         with:
