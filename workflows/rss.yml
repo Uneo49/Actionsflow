@@ -38,6 +38,8 @@ on:
       - https://1link.fun/index.xml?limit=5
       - https://kageji.blog/feed/?limit=20
       - https://tianxianzi.me/atom.xml?limit=10
+      - https://thirdshire.com/index.xml?limit=5
+      - https://blog.liminalnegativespace.xyz/posts/index.xml?limit=5
 jobs:
   request:
     name: Make a HTTP Request
