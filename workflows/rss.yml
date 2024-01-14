@@ -3,7 +3,6 @@ on:
     url:
       - https://sspai.com/feed
       - https://blog.douchi.space/index.xml?limit=5
-      - http://ordinarymiracle.site/feed/
       - https://geekplux.com/feed.xml?limit=5
       - https://academiaaesthetics.com/feed/
       - https://wuyagege.substack.com/feed
