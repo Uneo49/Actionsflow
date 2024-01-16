@@ -5,7 +5,6 @@ on:
       - https://blog.douchi.space/index.xml?limit=5
       - https://geekplux.com/feed.xml?limit=5
       - https://academiaaesthetics.com/feed/
-      - https://wuyagege.substack.com/feed
       - https://scottyeung.top/atom.xml
       - http://anotherdayu.com/?feed=rss
       - https://apod.nasa.gov/apod.rss
