@@ -33,6 +33,7 @@ on:
       - https://tianxianzi.me/atom.xml?limit=10
       - https://thirdshire.com/index.xml?limit=5
       - https://blog.liminalnegativespace.xyz/posts/index.xml?limit=5
+      - https://www.alrcly.com/feed.xml
 jobs:
   request:
     name: Make a HTTP Request
