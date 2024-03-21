@@ -51,3 +51,4 @@ jobs:
               "title": "${{ on.rss.outputs.title }}",
               "folder":"Inbox"
             }
+
