@@ -10,7 +10,6 @@ on:
       - https://apod.nasa.gov/apod.rss
       - https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss
       - https://weichen.blog/index.xml
-      - https://rsshub.app/zhubai/via?limit=5
       - https://rsshub.app/zhubai/shyrz?limit=5
       - https://rsshub.app/zhubai/bestxtools?limit=5
       - https://rsshub.app/zhubai/dex?limit=5
